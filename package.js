@@ -18,6 +18,7 @@ Package.onUse(function(api) {
 
   api.use([
     'check',
+    'ecmascript',
     'ostrio:flow-router-extra',
     'underscore',
     'useraccounts:core',
