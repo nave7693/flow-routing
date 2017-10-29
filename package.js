@@ -7,10 +7,10 @@
 'use strict';
 
 Package.describe({
-  name: 'nxcong:flow-routing',
+  name: 'nave7693:flow-routing',
   summary: 'UserAccounts package providing routes configuration capability via ostrio:flow-router-extra.',
   version: '1.14.3',
-  git: 'https://github.com/cafe4it/flow-routing.git',
+  git: 'https://github.com/nave7693/flow-routing.git',
 });
 
 Package.onUse(function(api) {
