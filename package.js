@@ -22,8 +22,8 @@ Package.onUse(function(api) {
     'ostrio:flow-router-extra',
     'underscore',
     'useraccounts:core',
-    'modules'
-    'ecmascript'
+    'modules',
+    'ecmascript',
   ], ['client', 'server']);
 
   api.imply([
@@ -33,8 +33,7 @@ Package.onUse(function(api) {
 
   api.use([
      'kadira:blaze-layout@2.3.0',
-     //'gwendall:blaze-to-react'
-     'gadicc:blaze-react-component'
+     'gadicc:blaze-react-component',
   ], ['client', 'server'], { weak: true });
 
   api.addFiles([
